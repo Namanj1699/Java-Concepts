@@ -16,29 +16,27 @@ public class ArrayDequeDemo {
         dq.offerLast(3);
         dq.offerLast(4);
 
-//        System.out.println(dq);
-//        dq.poll();
-//        System.out.println(dq);
-//        dq.poll();
-//        System.out.println(dq);
-//        dq.pollFirst();
-//        System.out.println(dq);
+        System.out.println(dq);
+        dq.poll();
+        System.out.println(dq);
+        dq.poll();
+        System.out.println(dq);
+        dq.pollFirst();
+        System.out.println(dq);
 
         //Stack
-//        dq.offerFirst(1);
-//        dq.offerFirst(2);
-//        dq.offerFirst(3);
-//        dq.offerFirst(4);
-//
-//
-//        System.out.println(dq);
-//        dq.poll();
-//        System.out.println(dq);
-//        dq.poll();
-//        System.out.println(dq);
-//        dq.pollFirst();
-//        System.out.println(dq);
+        dq.offerFirst(1);
+        dq.offerFirst(2);
+        dq.offerFirst(3);
+        dq.offerFirst(4);
 
         System.out.println(dq);
+        dq.poll();
+        System.out.println(dq);
+        dq.poll();
+        System.out.println(dq);
+        dq.pollFirst();
+        System.out.println(dq);
+
     }
 }
